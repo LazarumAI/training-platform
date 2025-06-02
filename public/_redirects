@@ -1,0 +1,14 @@
+# Netlify redirects file
+
+# Legacy routes
+/staking    /train    301
+/docs       /playground    301
+/documentation    /playground    301
+
+# Nested routes
+/playground/trading    /playground/finance    301
+/playground/images    /playground/image    301
+/playground/cryptocurrency    /playground/crypto    301
+
+# SPA fallback
+/*    /index.html   200
